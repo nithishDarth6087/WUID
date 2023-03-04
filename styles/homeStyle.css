@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.nav{
+    position: fixed;
+    top: 0;             /*Remove gap between top and left */
+    left: 0;
+    width: 100%;
+    background: #13c82b;
+}
+
+.nav,
+.nav-links{
+    display: flex;      /* to make links straight/horizontal */
+    align-items: center;
+}
+ 
+.nav{
+    justify-content: space-between;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav logo{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav .nav-links{
+    column-gap: 20px; /*homesale --> home   sales */
+    list-style: none; /* *home --> home */
+}
+
+/*
+search logo styles
+ */
+
+ .nav .search-icon{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    
+ }

@@ -1,0 +1,69 @@
+body{
+    background: url('lake-constance-sheep-pasture-sheep-blue-158179.jpeg');
+    background-size: cover;
+}
+.signup-container{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    background: white;
+    width: 800px;
+    margin:  0px auto 0px ;
+    border-radius: 10px;
+}
+.span{
+    font-weight: lighter;
+}
+div *{
+    margin: 10px;
+}
+.logo{
+    position: relative;
+    left: 220px;
+
+}
+h1{
+    text-align: center;
+}
+form p{
+    font-size: 20px;
+}
+
+.linestreet{
+    width: 90%
+}
+
+.horizontal-elements{
+    width: 15%;
+}
+
+.names{
+    margin-right: 100px;
+}
+
+.names2{
+    margin-left:185px;
+}
+form input{
+    border-radius: 10px;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.button
+{
+    text-transform: uppercase;
+    background: #1ae5a9;
+    outline: 0;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer; 
+    position: relative;
+    left: 350px;
+
+}
